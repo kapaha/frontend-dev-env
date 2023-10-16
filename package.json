@@ -1,12 +1,15 @@
 {
-  "name": "frontend-dev-env",
-  "version": "1.0.0",
-  "description": "A frontend dev environment for easy setting up of new projects",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "name": "frontend-dev-env",
+    "version": "1.0.0",
+    "description": "A frontend dev environment for easy setting up of new projects",
+    "main": "index.js",
+    "scripts": {
+        "sass-watch": "sass --watch scss:css"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "sass": "^1.69.3"
+    }
 }
