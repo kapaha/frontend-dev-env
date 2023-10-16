@@ -4,7 +4,8 @@
     "description": "A frontend dev environment for easy setting up of new projects",
     "main": "index.js",
     "scripts": {
-        "sass-watch": "sass --watch src/scss:build/css"
+        "sass-dev": "sass --watch src/scss:build/css",
+        "sass-prod": "sass --watch --style=compressed src/scss:build/css"
     },
     "keywords": [],
     "author": "",
