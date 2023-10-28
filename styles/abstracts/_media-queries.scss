@@ -6,11 +6,11 @@ $breakpoint-xl: 1280px;
 $breakpoint-2xl: 1536px;
 
 $breakpoints: (
-    'sm': $breakpoint-sm,
-    'md': $breakpoint-md,
-    'lg': $breakpoint-lg,
-    'xl': $breakpoint-xl,
-    '2xl': $breakpoint-2xl,
+    "sm": $breakpoint-sm,
+    "md": $breakpoint-md,
+    "lg": $breakpoint-lg,
+    "xl": $breakpoint-xl,
+    "2xl": $breakpoint-2xl,
 );
 
 // Media queries
